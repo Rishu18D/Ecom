@@ -1,0 +1,23 @@
+{
+  "name": "chicchamber",
+  "version": "1.0.0",
+  "description": "A modern e-commerce platform",
+  "main": "index.js",
+  "scripts": {
+    "client": "npm start --prefix client",
+    "server": "nodemon server/index.js",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "keywords": [
+    "e-commerce",
+    "shop",
+    "modern",
+    "fashion"
+  ],
+  "author": "Rishu Singh",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^8.2.2",
+    "dotenv": "^16.4.5"
+  }
+}

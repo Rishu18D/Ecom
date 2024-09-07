@@ -1,0 +1,67 @@
+[
+  {
+    "title": "Leather Travel Duffel Bag",
+    "name": "Leather Duffel Bag",
+    "desc": "Crafted from premium leather, this duffel bag is designed for durability and style. Perfect for weekend getaways or business trips.",
+    "img": "https://images-cdn.ubuy.qa/639ca7eb0a8eba5737471393-large-leather-travel-bag-duffel-bag-gym.jpg",
+    "price": {
+      "org": 7530.25,
+      "mrp": 8000.00,
+      "off": 6
+    },
+    "sizes": ["M", "L"],
+    "category": ["Bags", "Accessories"]
+  },
+  {
+    "title": "Womens Faux Leather Jacket",
+    "name": "Faux Leather Jacket",
+    "desc": "Stylish faux leather jacket with zipper closure. Great for casual outings, perfect for layering during fall or winter.",
+    "img": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/aa4b4982-eade-4951-a40a-4a22be65f48d.__CR0,556,2000,1237_PT0_SX970_V1___.jpg",
+    "price": {
+      "org": 6499.99,
+      "mrp": 7000.00,
+      "off": 7
+    },
+    "sizes": ["S", "M", "L"],
+    "category": ["Women", "Winter Wear"]
+  },
+  {
+    "title": "Men's Formal Oxford Shoes",
+    "name": "Oxford Shoes",
+    "desc": "Classic leather Oxford shoes with a polished finish. Ideal for business meetings and formal events.",
+    "img": "https://images-cdn.ubuy.co.in/6565b42ba21333733451b309-desai-classic-oxford-dress-shoes-mens.jpg",
+    "price": {
+      "org": 5030.00,
+      "mrp": 5500.00,
+      "off": 9
+    },
+    "sizes": ["M", "L", "XL"],
+    "category": ["Men", "Formal Wear"]
+  },
+  {
+    "title": "Kids' Cartoon Print Hoodie",
+    "name": "Cartoon Hoodie",
+    "desc": "Soft and cozy hoodie with colorful cartoon print. A perfect addition to your kids' winter wardrobe.",
+    "img": "https://m.media-amazon.com/images/I/51KY-wLlriL._AC_UY1100_.jpg",
+    "price": {
+      "org": 1250.50,
+      "mrp": 1500.00,
+      "off": 17
+    },
+    "sizes": ["S", "M"],
+    "category": ["Kids", "Winter Wear"]
+  },
+  {
+    "title": "Smart Casual Wristwatch",
+    "name": "Casual Wristwatch",
+    "desc": "Elegant wristwatch with leather straps and a minimalist dial. Suitable for both casual and formal occasions.",
+    "img": "https://5.imimg.com/data5/ECOM/Default/2024/1/379241748/VT/YL/CK/38446947/hf4554e53474c46e4869f8e34f82dc8629-500x500.webp",
+    "price": {
+      "org": 3025.75,
+      "mrp": 3500.00,
+      "off": 14
+    },
+    "sizes": ["One Size"],
+    "category": ["Accessories"]
+  }
+]
