@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "http://localhost:8080/api",
+  baseURL: process.env.REACT_APP_API_BASE_URL,
 });
 
 export const UserSignUp = async (data) => await API.post("/user/signup", data);
@@ -14,7 +14,6 @@ export const getAllProducts = async (filter) =>
 export const getProductDetails = async (id) => await API.get(`/products/${id}`);
 
 //Cart
-
 export const getCart = async (token) =>
   await API.get("/user/cart", {
     headers: { Authorization: `Bearer ${token}` },
@@ -31,7 +30,6 @@ export const deleteFromCart = async (token, data) =>
   });
 
 //Favourites
-
 export const getFavourite = async (token) =>
   await API.get(`/user/favorite`, {
     headers: { Authorization: `Bearer ${token}` },
@@ -48,7 +46,6 @@ export const deleteFromFavourite = async (token, data) =>
   });
 
 //Orders
-
 export const placeOrder = async (token, data) =>
   await API.post(`/user/order/`, data, {
     headers: { Authorization: `Bearer ${token}` },
